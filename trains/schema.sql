@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS trains;
+
+CREATE TABLE trains (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    trainNumber TEXT UNIQUE NOT NULL,
+    origin TEXT NOT NULL,
+    destination TEXT NOT NULL
+)
